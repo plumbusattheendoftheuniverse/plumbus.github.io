@@ -3,7 +3,7 @@
    "how to change link color." */
 
 body {
-  
+  background-color: black;
   color: yellow;
   font-family: Verdana;
   background-image: url('rsz_occhi_sfondo_bandcamp_ripetuti.png');
