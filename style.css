@@ -5,8 +5,9 @@
 body {
   background-color: pink;
   color: yellow;
-  font-family: Verdana;
+  font-family: Tahoma;
   background-image: url("gif medusa.gif");
+  font-size:22px;
   
 }
 
@@ -14,7 +15,7 @@ body {
 a:link {
   color: green;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: bold;
 }
 
 a:visited {
