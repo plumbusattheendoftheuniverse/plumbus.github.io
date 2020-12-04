@@ -7,10 +7,17 @@ body {
   color: yellow;
   font-family: Tahoma;
   background-image: url("gif medusa.gif");
-  font-size:22px;
+  font-size:21px;
   
 }
-
+<--! for a responsive background-->
+html { 
+  background: url(gif medusa.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 a:link {
   color: green;

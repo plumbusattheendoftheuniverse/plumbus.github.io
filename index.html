@@ -3,14 +3,32 @@
   <head>
     <meta charset="UTF-8"> 
 	<meta name="Vigenère Halley">
-    <title>plumbus is just a random musician</title> 
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
+	 <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>plumbus or "that thing in my mind desperately trying to get out"</title> 
+    <!-- the next line is used for responsive design-->
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
+	<!-- generate a random style for the header with js-->
+	
+	<script type="text/javascript">
+	var plumbustyles = new Array();
+	plumbustyles[0]="卩ㄥㄩ爪乃ㄩ丂"
+	plumbustyles[1]="【p】【l】【u】【m】【b】【u】【s】"
+	plumbustyles[2]="♥ plumbus ♥"
+	plumbustyles[3]="【﻿ｐｌｕｍｂｕｓ】"
+	plumbustyles[4]="[̲̅p][̲̅l][̲̅u][̲̅m][̲̅b][̲̅u][̲̅s]"
+	plumbustyles[5]="₱ⱠɄ₥฿Ʉ₴"
+	plumbustyles[6]="p͓̽l͓̽u͓̽m͓̽b͓̽u͓̽s͓̽"
+	plumbustyles[7]="p̶l̶u̶m̶b̶u̶s̶"
+	plumbustyles[8]="ₚₗᵤₘbᵤₛ"
+	var randomN=Math.floor(Math.random()*plumbustyles.length);
+	var randomString=plumbustyles[randomN]
+	</script>
+	
   </head>
   <body>
-    <h1>plumbus</h1>
+    <h1><script type="text/javascript">
+	document.write(randomString)
+      </script></h1>
 	<h4>or "that thing in my mind desperately trying to get out"	</h4>
     <p>  <a href="bio.html"> who am I?</a> 
 	<p>  <a href="random link.html"> Take me somewhere random</a> 
