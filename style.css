@@ -37,6 +37,12 @@ a:active {
 }
 
 
+.boxed{
+	
+	background: yellow;
+	width: calc(50%);
+}
+
 content {
   max-width: 500px;
   margin: auto;
