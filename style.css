@@ -6,14 +6,15 @@ body {
   background-color: pink;
   color: white;
   font-family: Tahoma;
-  background-image: url("gif medusa.gif");
+  background-image: url("mare.gif");
+  background-repeat:round;
   font-size:21px;
   text-align: center;
 }
 <--! for a responsive background-->
 
 html { 
-  background: url(gif medusa.gif) repeat center center fixed; 
+  background: url(mare.gif) repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
