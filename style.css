@@ -6,7 +6,7 @@ body {
   background-color: pink;
   color: white;
   font-family: Tahoma;
-  background-image: url("gif medusa media.gif");
+  background-image: url("gif medusa.gif");
 
   font-size:21px;
   text-align: center;
@@ -14,7 +14,7 @@ body {
 <--! for a responsive background-->
 
 html { 
-  background: url(gif medusa media.gif) norepeat center center fixed; 
+  background: url(gif medusa.gif) norepeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
