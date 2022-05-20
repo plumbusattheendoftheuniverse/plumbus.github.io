@@ -2,24 +2,20 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-body {
-  background-color: pink;
-  color: white;
-  font-family: Tahoma;
-  background-image: url("gif medusa.gif");
-
-  font-size:21px;
-  text-align: center;
+html, body { 
+    margin:    0 auto;
+    max-width: 850px;
+	background-color: black;
+    color: white;
+    font-family: Courier New;
+    background-image: none;
+    font-size:21px;
+    text-align: center;
 }
-<--! for a responsive background-->
 
-html { 
-  background: url(gif medusa.gif) norepeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+	
+
+
 
 a:link {
   color: white;
@@ -80,3 +76,50 @@ a.button2 {
   font-size: 21px;
   font-family: Tahoma;
 }
+
+/*next classes are used for the image and text grids*/
+.grid{
+	overflow:hidden;
+	/*margin-bottom: -0.5em;*/
+	margin-top: 5px;
+}
+.grid > a:first-child > div{
+	margin-top:20px;
+}
+
+ /* Set the dimensions of each cell in the grid of images!*/
+.grid > a > div{
+
+	display: inline-block;
+    overflow: hidden;
+	width: 380px;
+	height:300px;
+	margin-bottom:10px;
+
+	transition: opacity 0.1s ease-in-out;
+
+}
+.grid > a{
+	text-decoration: none;
+	display: inline-block;
+}
+.grid > a:hover > div{
+	opacity: 0.5;
+}
+.grid > a > div > img{
+	width: 388px;
+	border: 1px solid black;
+	margin-bottom: 5px;
+}
+.grid > a > div > div{
+	color:white;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: left;
+	width:100%;
+}
+
+.grid > a > div > div > span{
+	color:#999;
+}
+
