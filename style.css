@@ -3,19 +3,36 @@
    "how to change link color." */
 
 html, body { 
-    margin:    0 auto;
-    max-width: 850px;
+	width:100%; height:100%;
+    margin:    0 auto;    
 	background-color: black;
     color: white;
     font-family: Courier New;
     background-image: none;
-    font-size:21px;
+    font-size:23px;
+	font-weight: 100;
+	line-height: 1.4em;
     text-align: center;
 }
+#header, #content, #footer{
+	width: 100%;
+	max-width: 800px;
+	margin:0 auto;
+}
 
-	
+#content{
+	padding: 15px 20px 20px 20px;
+	width: calc(100% - 50px);
+	text-align: center;
+	margin-bottom: 50px;
+}
 
-
+/* this is for responsive design 	
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+*/
 
 a:link {
   color: white;
@@ -24,7 +41,7 @@ a:link {
 }
 
 a:visited {
-  color: pink;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
@@ -42,16 +59,19 @@ a:active {
 }
 
 
+
+
 .boxed{
 	
 	background: yellow;
 	width: calc(50%);
 }
 
-content {
-  max-width: 500px;
-  margin: auto;
-}
+
+
+
+
+
 
 a.button {
   background-color: yellow; 
@@ -92,7 +112,7 @@ a.button2 {
 
 	display: inline-block;
     overflow: hidden;
-	width: 380px;
+	width: 390px;
 	height:300px;
 	margin-bottom:10px;
 
@@ -107,19 +127,41 @@ a.button2 {
 	opacity: 0.5;
 }
 .grid > a > div > img{
+
 	width: 388px;
 	border: 1px solid black;
 	margin-bottom: 5px;
 }
 .grid > a > div > div{
 	color:white;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 21px;
 	text-align: left;
 	width:100%;
 }
 
 .grid > a > div > div > span{
-	color:#999;
+	color:white;
+	opacity: 1;
 }
 
+	
+/* for making the nav menu one column if width is under 880 px */
+@media (max-width: 880px){
+	#nav{
+		
+		margin: auto;
+		width: 70%;
+		border: 0px solid green;
+		padding: 10px;
+		line-height: 140%
+
+
+	}
+/* hides the dots between the elements of the menu*/
+	#nav span{
+		opacity: 0;
+		display: block;
+		height: 0px;
+	}
+}
